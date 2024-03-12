@@ -72,7 +72,7 @@ public class ArrayDemoOne {
 		System.out.println("sumof array elemnts is :" + ArrayOperations.getSum(10,20,60,90,70,76));
 		
 		b[2] = 999; //assigning single elements
-		//b[20]=67; //RTE
+		b[20]=67; //RTE
 		ArrayOperations.printArray(b);
 		
 		//Display total no of odd and even
